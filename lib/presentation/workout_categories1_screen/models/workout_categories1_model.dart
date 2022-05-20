@@ -1,0 +1,1 @@
+class WorkoutCategories1Model { }

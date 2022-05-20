@@ -1,0 +1,1 @@
+class Group260ItemModel { }

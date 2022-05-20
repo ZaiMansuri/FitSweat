@@ -1,0 +1,57 @@
+name: fitsweat
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.1
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.0
+  connectivity_plus: ^1.4.0
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  smooth_page_indicator: ^1.0.0+2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/opensansregular700.ttf
+          weight: 700
+        - asset: assets/fonts/opensansregular600.ttf
+          weight: 600
+        - asset: assets/fonts/opensansregular400.ttf
+          weight: 400
+        - asset: assets/fonts/opensansregular300.ttf
+          weight: 300
+        - asset: assets/fonts/opensansopensansromanbold700.ttf
+          weight: 700
+        - asset: assets/fonts/opensansopensansromanregular400.ttf
+          weight: 400
+        - asset: assets/fonts/opensansopensansromansemibold600.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/interbold700.ttf
+          weight: 700
+        - asset: assets/fonts/intersemibold400.ttf
+          weight: 400
+        - asset: assets/fonts/interlight300.ttf
+          weight: 300
+    - family: Arima Madurai
+      fonts: 
+        - asset: assets/fonts/arimamadurairegular400.ttf
+          weight: 400
+    - family: Actor
+      fonts: 
+        - asset: assets/fonts/actorregular400.ttf
+          weight: 400

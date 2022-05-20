@@ -1,0 +1,1 @@
+class Reviews1Model { }
