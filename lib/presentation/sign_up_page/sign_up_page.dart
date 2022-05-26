@@ -121,7 +121,7 @@ class SignUpPage extends StatelessWidget {
                       311.00,
                     ),
                     child: TextFormField(
-                      controller: controller.emailController,
+                      controller: controller.inputController,
                       decoration: InputDecoration(
                         hintText: "lbl_email".tr,
                         hintStyle:
@@ -180,7 +180,7 @@ class SignUpPage extends StatelessWidget {
                         311.00,
                       ),
                       child: TextFormField(
-                        controller: controller.passwordController,
+                        controller: controller.inputController1,
                         obscureText: true,
                         decoration: InputDecoration(
                           hintText: "lbl_password".tr,
@@ -241,7 +241,7 @@ class SignUpPage extends StatelessWidget {
                         311.00,
                       ),
                       child: TextFormField(
-                        controller: controller.passwordagainController,
+                        controller: controller.inputController2,
                         obscureText: true,
                         decoration: InputDecoration(
                           hintText: "lbl_password_again".tr,

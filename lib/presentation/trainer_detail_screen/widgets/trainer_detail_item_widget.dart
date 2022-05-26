@@ -90,8 +90,7 @@ class TrainerDetailItemWidget extends StatelessWidget {
                             "lbl_sharon_jem".tr,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.left,
-                            style:
-                                AppStyle.textstyleopensansregular151.copyWith(
+                            style: AppStyle.textstyleopensansregular15.copyWith(
                               fontSize: getFontSize(
                                 15,
                               ),
@@ -101,7 +100,7 @@ class TrainerDetailItemWidget extends StatelessWidget {
                         ),
                         Container(
                           height: getVerticalSize(
-                            13.19,
+                            13.00,
                           ),
                           width: getHorizontalSize(
                             27.00,
@@ -111,10 +110,10 @@ class TrainerDetailItemWidget extends StatelessWidget {
                               23.00,
                             ),
                             top: getVerticalSize(
-                              9.41,
+                              9.00,
                             ),
                             bottom: getVerticalSize(
-                              9.40,
+                              9.00,
                             ),
                           ),
                           child: Stack(
@@ -122,26 +121,16 @@ class TrainerDetailItemWidget extends StatelessWidget {
                             children: [
                               Align(
                                 alignment: Alignment.centerLeft,
-                                child: Padding(
-                                  padding: EdgeInsets.only(
-                                    top: getVerticalSize(
-                                      0.18,
-                                    ),
-                                    bottom: getVerticalSize(
-                                      0.01,
-                                    ),
+                                child: Container(
+                                  height: getVerticalSize(
+                                    13.00,
                                   ),
-                                  child: Container(
-                                    height: getVerticalSize(
-                                      13.00,
-                                    ),
-                                    width: getHorizontalSize(
-                                      27.00,
-                                    ),
-                                    child: SvgPicture.asset(
-                                      ImageConstant.imgPoint,
-                                      fit: BoxFit.fill,
-                                    ),
+                                  width: getHorizontalSize(
+                                    27.00,
+                                  ),
+                                  child: SvgPicture.asset(
+                                    ImageConstant.imgPoint,
+                                    fit: BoxFit.fill,
                                   ),
                                 ),
                               ),
@@ -150,13 +139,10 @@ class TrainerDetailItemWidget extends StatelessWidget {
                                 child: Padding(
                                   padding: EdgeInsets.only(
                                     left: getHorizontalSize(
-                                      5.50,
+                                      5.00,
                                     ),
                                     right: getHorizontalSize(
-                                      6.50,
-                                    ),
-                                    bottom: getVerticalSize(
-                                      0.19,
+                                      6.00,
                                     ),
                                   ),
                                   child: Text(
@@ -181,10 +167,10 @@ class TrainerDetailItemWidget extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.only(
                         top: getVerticalSize(
-                          9.50,
+                          9.00,
                         ),
                         bottom: getVerticalSize(
-                          9.50,
+                          9.00,
                         ),
                       ),
                       child: Text(
@@ -225,7 +211,7 @@ class TrainerDetailItemWidget extends StatelessWidget {
                 "msg_had_such_an_ama".tr,
                 maxLines: null,
                 textAlign: TextAlign.left,
-                style: AppStyle.textstyleopensansregular131.copyWith(
+                style: AppStyle.textstyleopensansregular13.copyWith(
                   fontSize: getFontSize(
                     13,
                   ),

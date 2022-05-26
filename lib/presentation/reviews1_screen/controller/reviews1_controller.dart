@@ -6,7 +6,7 @@ class Reviews1Controller extends GetxController
     with GetSingleTickerProviderStateMixin, StateMixin<dynamic> {
   Rx<Reviews1Model> reviews1ModelObj = Reviews1Model().obs;
 
-  late TabController group49Controller =
+  late TabController group43Controller =
       Get.put(TabController(vsync: this, length: 3));
 
   @override

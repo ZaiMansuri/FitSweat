@@ -1,11 +1,3 @@
-import 'package:fitsweat/presentation/language_2_screen/language_2_screen.dart';
-import 'package:fitsweat/presentation/language_2_screen/binding/language_2_binding.dart';
-import 'package:fitsweat/presentation/language_screen/language_screen.dart';
-import 'package:fitsweat/presentation/language_screen/binding/language_binding.dart';
-import 'package:fitsweat/presentation/notifications_screen/notifications_screen.dart';
-import 'package:fitsweat/presentation/notifications_screen/binding/notifications_binding.dart';
-import 'package:fitsweat/presentation/units_of_measure_screen/units_of_measure_screen.dart';
-import 'package:fitsweat/presentation/units_of_measure_screen/binding/units_of_measure_binding.dart';
 import 'package:fitsweat/presentation/settings_screen/settings_screen.dart';
 import 'package:fitsweat/presentation/settings_screen/binding/settings_binding.dart';
 import 'package:fitsweat/presentation/privacy_policy_screen/privacy_policy_screen.dart';
@@ -18,8 +10,6 @@ import 'package:fitsweat/presentation/profile_screen/profile_screen.dart';
 import 'package:fitsweat/presentation/profile_screen/binding/profile_binding.dart';
 import 'package:fitsweat/presentation/insight_screen/insight_screen.dart';
 import 'package:fitsweat/presentation/insight_screen/binding/insight_binding.dart';
-import 'package:fitsweat/presentation/video_pause_screen/video_pause_screen.dart';
-import 'package:fitsweat/presentation/video_pause_screen/binding/video_pause_binding.dart';
 import 'package:fitsweat/presentation/video_screen/video_screen.dart';
 import 'package:fitsweat/presentation/video_screen/binding/video_binding.dart';
 import 'package:fitsweat/presentation/payment_completed_screen/payment_completed_screen.dart';
@@ -68,14 +58,12 @@ import 'package:fitsweat/presentation/onboarding_1_screen/onboarding_1_screen.da
 import 'package:fitsweat/presentation/onboarding_1_screen/binding/onboarding_1_binding.dart';
 import 'package:fitsweat/presentation/splash_screen/splash_screen.dart';
 import 'package:fitsweat/presentation/splash_screen/binding/splash_binding.dart';
-import 'package:fitsweat/presentation/notifications2_screen/notifications2_screen.dart';
-import 'package:fitsweat/presentation/notifications2_screen/binding/notifications2_binding.dart';
+import 'package:fitsweat/presentation/notifications1_screen/notifications1_screen.dart';
+import 'package:fitsweat/presentation/notifications1_screen/binding/notifications1_binding.dart';
 import 'package:fitsweat/presentation/reviews1_screen/reviews1_screen.dart';
 import 'package:fitsweat/presentation/reviews1_screen/binding/reviews1_binding.dart';
-import 'package:fitsweat/presentation/workout_categories1_screen/workout_categories1_screen.dart';
-import 'package:fitsweat/presentation/workout_categories1_screen/binding/workout_categories1_binding.dart';
-import 'package:fitsweat/presentation/home1_screen/home1_screen.dart';
-import 'package:fitsweat/presentation/home1_screen/binding/home1_binding.dart';
+import 'package:fitsweat/presentation/workout_categories_screen/workout_categories_screen.dart';
+import 'package:fitsweat/presentation/workout_categories_screen/binding/workout_categories_binding.dart';
 import 'package:fitsweat/presentation/sign_up_3_screen/sign_up_3_screen.dart';
 import 'package:fitsweat/presentation/sign_up_3_screen/binding/sign_up_3_binding.dart';
 import 'package:fitsweat/presentation/app_navigation_screen/app_navigation_screen.dart';
@@ -83,14 +71,6 @@ import 'package:fitsweat/presentation/app_navigation_screen/binding/app_navigati
 import 'package:get/get.dart';
 
 class AppRoutes {
-  static String language2Screen = '/language_2_screen';
-
-  static String languageScreen = '/language_screen';
-
-  static String notificationsScreen = '/notifications_screen';
-
-  static String unitsOfMeasureScreen = '/units_of_measure_screen';
-
   static String settingsScreen = '/settings_screen';
 
   static String privacyPolicyScreen = '/privacy_policy_screen';
@@ -102,8 +82,6 @@ class AppRoutes {
   static String profileScreen = '/profile_screen';
 
   static String insightScreen = '/insight_screen';
-
-  static String videoPauseScreen = '/video_pause_screen';
 
   static String videoScreen = '/video_screen';
 
@@ -153,13 +131,11 @@ class AppRoutes {
 
   static String splashScreen = '/splash_screen';
 
-  static String notifications2Screen = '/notifications2_screen';
+  static String notifications1Screen = '/notifications1_screen';
 
   static String reviews1Screen = '/reviews1_screen';
 
-  static String workoutCategories1Screen = '/workout_categories1_screen';
-
-  static String home1Screen = '/home1_screen';
+  static String workoutCategoriesScreen = '/workout_categories_screen';
 
   static String signUp3Screen = '/sign_up_3_screen';
 
@@ -168,34 +144,6 @@ class AppRoutes {
   static String initialRoute = '/initialRoute';
 
   static List<GetPage> pages = [
-    GetPage(
-      name: language2Screen,
-      page: () => Language2Screen(),
-      bindings: [
-        Language2Binding(),
-      ],
-    ),
-    GetPage(
-      name: languageScreen,
-      page: () => LanguageScreen(),
-      bindings: [
-        LanguageBinding(),
-      ],
-    ),
-    GetPage(
-      name: notificationsScreen,
-      page: () => NotificationsScreen(),
-      bindings: [
-        NotificationsBinding(),
-      ],
-    ),
-    GetPage(
-      name: unitsOfMeasureScreen,
-      page: () => UnitsOfMeasureScreen(),
-      bindings: [
-        UnitsOfMeasureBinding(),
-      ],
-    ),
     GetPage(
       name: settingsScreen,
       page: () => SettingsScreen(),
@@ -236,13 +184,6 @@ class AppRoutes {
       page: () => InsightScreen(),
       bindings: [
         InsightBinding(),
-      ],
-    ),
-    GetPage(
-      name: videoPauseScreen,
-      page: () => VideoPauseScreen(),
-      bindings: [
-        VideoPauseBinding(),
       ],
     ),
     GetPage(
@@ -414,10 +355,10 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: notifications2Screen,
-      page: () => Notifications2Screen(),
+      name: notifications1Screen,
+      page: () => Notifications1Screen(),
       bindings: [
-        Notifications2Binding(),
+        Notifications1Binding(),
       ],
     ),
     GetPage(
@@ -428,17 +369,10 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: workoutCategories1Screen,
-      page: () => WorkoutCategories1Screen(),
+      name: workoutCategoriesScreen,
+      page: () => WorkoutCategoriesScreen(),
       bindings: [
-        WorkoutCategories1Binding(),
-      ],
-    ),
-    GetPage(
-      name: home1Screen,
-      page: () => Home1Screen(),
-      bindings: [
-        Home1Binding(),
+        WorkoutCategoriesBinding(),
       ],
     ),
     GetPage(
@@ -457,9 +391,9 @@ class AppRoutes {
     ),
     GetPage(
       name: initialRoute,
-      page: () => Language2Screen(),
+      page: () => SplashScreen(),
       bindings: [
-        Language2Binding(),
+        SplashBinding(),
       ],
     )
   ];

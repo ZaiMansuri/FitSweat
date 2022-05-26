@@ -169,7 +169,7 @@ class HeightScreen extends GetWidget<HeightController> {
                                 156.00,
                               ),
                               child: TextFormField(
-                                controller: controller.tfController,
+                                controller: controller.group109Controller,
                                 decoration: InputDecoration(
                                   hintText: "lbl_166".tr,
                                   hintStyle: AppStyle
@@ -357,7 +357,7 @@ class HeightScreen extends GetWidget<HeightController> {
                               "lbl_170".tr,
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.center,
-                              style: AppStyle.textstyleopensansromanregular27
+                              style: AppStyle.textstyleopensansromanregular271
                                   .copyWith(
                                 fontSize: getFontSize(
                                   27,

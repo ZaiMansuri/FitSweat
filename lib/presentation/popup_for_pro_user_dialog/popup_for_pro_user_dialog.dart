@@ -69,7 +69,7 @@ class PopupForProUserDialog extends StatelessWidget {
                             ),
                           ),
                           child: Image.asset(
-                            ImageConstant.imgImage14,
+                            ImageConstant.imgImage12,
                             height: getVerticalSize(
                               176.00,
                             ),
@@ -198,7 +198,7 @@ class PopupForProUserDialog extends StatelessWidget {
                                               overflow: TextOverflow.ellipsis,
                                               textAlign: TextAlign.left,
                                               style: AppStyle
-                                                  .textstyleopensansregular13
+                                                  .textstyleopensansregular132
                                                   .copyWith(
                                                 fontSize: getFontSize(
                                                   13,
@@ -324,7 +324,7 @@ class PopupForProUserDialog extends StatelessWidget {
                   "lbl_cancel".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.textstyleopensansregular131.copyWith(
+                  style: AppStyle.textstyleopensansregular13.copyWith(
                     fontSize: getFontSize(
                       13,
                     ),

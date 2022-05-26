@@ -6,11 +6,13 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 // ignore: must_be_immutable
 class TrainersItemWidget extends StatelessWidget {
-  TrainersItemWidget(this.trainersItemModelObj);
+  TrainersItemWidget(this.trainersItemModelObj, {this.onTapImgRight});
 
   TrainersItemModel trainersItemModelObj;
 
   var controller = Get.find<FitnessInstructorsController>();
+
+  VoidCallback? onTapImgRight;
 
   @override
   Widget build(BuildContext context) {
@@ -53,21 +55,15 @@ class TrainersItemWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(
-                      getSize(
-                        32.00,
-                      ),
-                    ),
-                    child: Image.asset(
-                      ImageConstant.imgImage7,
+                  Obx(
+                    () => CommonNetworkImageView(
+                      url: trainersItemModelObj.imageImg.value,
                       height: getSize(
                         64.00,
                       ),
                       width: getSize(
                         64.00,
                       ),
-                      fit: BoxFit.fill,
                     ),
                   ),
                   Padding(
@@ -90,24 +86,26 @@ class TrainersItemWidget extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Text(
-                                "lbl_richard_will".tr,
-                                overflow: TextOverflow.ellipsis,
-                                textAlign: TextAlign.left,
-                                style: AppStyle.textstyleopensansregular17
-                                    .copyWith(
-                                  fontSize: getFontSize(
-                                    17,
+                              Obx(
+                                () => Text(
+                                  trainersItemModelObj.nameTxt.value,
+                                  overflow: TextOverflow.ellipsis,
+                                  textAlign: TextAlign.left,
+                                  style: AppStyle.textstyleopensansregular17
+                                      .copyWith(
+                                    fontSize: getFontSize(
+                                      17,
+                                    ),
                                   ),
                                 ),
                               ),
                               Padding(
                                 padding: EdgeInsets.only(
                                   top: getVerticalSize(
-                                    3.50,
+                                    3.00,
                                   ),
                                   bottom: getVerticalSize(
-                                    3.50,
+                                    3.00,
                                   ),
                                 ),
                                 child: Container(
@@ -167,15 +165,18 @@ class TrainersItemWidget extends StatelessWidget {
                               10.00,
                             ),
                           ),
-                          child: Text(
-                            "msg_5_years_experie".tr,
-                            overflow: TextOverflow.ellipsis,
-                            textAlign: TextAlign.left,
-                            style: AppStyle.textstyleopensansregular11.copyWith(
-                              fontSize: getFontSize(
-                                11,
+                          child: Obx(
+                            () => Text(
+                              trainersItemModelObj.durationTxt.value,
+                              overflow: TextOverflow.ellipsis,
+                              textAlign: TextAlign.left,
+                              style:
+                                  AppStyle.textstyleopensansregular11.copyWith(
+                                fontSize: getFontSize(
+                                  11,
+                                ),
+                                height: 1.18,
                               ),
-                              height: 1.18,
                             ),
                           ),
                         ),
@@ -185,31 +186,36 @@ class TrainersItemWidget extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.only(
-                left: getHorizontalSize(
-                  59.00,
+            GestureDetector(
+              onTap: () {
+                onTapImgRight!();
+              },
+              child: Padding(
+                padding: EdgeInsets.only(
+                  left: getHorizontalSize(
+                    59.00,
+                  ),
+                  top: getVerticalSize(
+                    38.00,
+                  ),
+                  right: getHorizontalSize(
+                    9.00,
+                  ),
+                  bottom: getVerticalSize(
+                    34.00,
+                  ),
                 ),
-                top: getVerticalSize(
-                  38.00,
-                ),
-                right: getHorizontalSize(
-                  9.00,
-                ),
-                bottom: getVerticalSize(
-                  34.00,
-                ),
-              ),
-              child: Container(
-                height: getSize(
-                  24.00,
-                ),
-                width: getSize(
-                  24.00,
-                ),
-                child: SvgPicture.asset(
-                  ImageConstant.imgRight,
-                  fit: BoxFit.fill,
+                child: Container(
+                  height: getSize(
+                    24.00,
+                  ),
+                  width: getSize(
+                    24.00,
+                  ),
+                  child: SvgPicture.asset(
+                    ImageConstant.imgRight,
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
             ),

@@ -96,7 +96,7 @@ class SignUp3Screen extends GetWidget<SignUp3Controller> {
                               ),
                             ),
                             child: TabBar(
-                              controller: controller.group93Controller,
+                              controller: controller.group87Controller,
                               tabs: [
                                 Tab(
                                   text: "lbl_login".tr,
@@ -124,7 +124,7 @@ class SignUp3Screen extends GetWidget<SignUp3Controller> {
                       554.00,
                     ),
                     child: TabBarView(
-                      controller: controller.group93Controller,
+                      controller: controller.group87Controller,
                       children: [
                         LoginPage(),
                         SignUpPage(),

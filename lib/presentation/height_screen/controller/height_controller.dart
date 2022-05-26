@@ -3,7 +3,7 @@ import 'package:fitsweat/presentation/height_screen/models/height_model.dart';
 import 'package:flutter/material.dart';
 
 class HeightController extends GetxController with StateMixin<dynamic> {
-  TextEditingController tfController = TextEditingController();
+  TextEditingController group109Controller = TextEditingController();
 
   Rx<HeightModel> heightModelObj = HeightModel().obs;
 
@@ -15,6 +15,6 @@ class HeightController extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    tfController.dispose();
+    group109Controller.dispose();
   }
 }

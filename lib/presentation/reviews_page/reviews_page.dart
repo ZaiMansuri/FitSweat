@@ -387,7 +387,7 @@ class ReviewsPage extends StatelessWidget {
                           "lbl_174_ratings".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.right,
-                          style: AppStyle.textstyleopensansregular131.copyWith(
+                          style: AppStyle.textstyleopensansregular13.copyWith(
                             fontSize: getFontSize(
                               13,
                             ),

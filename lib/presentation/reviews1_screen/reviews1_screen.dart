@@ -121,7 +121,7 @@ class Reviews1Screen extends GetWidget<Reviews1Controller> {
                               ),
                             ),
                             child: TabBar(
-                              controller: controller.group49Controller,
+                              controller: controller.group43Controller,
                               tabs: [
                                 Tab(
                                   text: "lbl_recent".tr,
@@ -182,7 +182,7 @@ class Reviews1Screen extends GetWidget<Reviews1Controller> {
                               779.00,
                             ),
                             child: TabBarView(
-                              controller: controller.group49Controller,
+                              controller: controller.group43Controller,
                               children: [
                                 ReviewsPage(),
                                 ReviewsPage(),

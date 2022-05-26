@@ -33,15 +33,10 @@ class AppStyle {
   );
 
   static TextStyle textstyleopensansregular131 =
-      textstyleopensansromanregular43.copyWith(
+      textstyleopensansregular152.copyWith(
     fontSize: getFontSize(
       13,
     ),
-  );
-
-  static TextStyle textstyleintersemibold361 =
-      textstyleintersemibold36.copyWith(
-    color: ColorConstant.limeA200,
   );
 
   static TextStyle textstyleopensansregular112 =
@@ -66,22 +61,22 @@ class AppStyle {
     fontFamily: 'Open Sans',
   );
 
-  static TextStyle textstyleopensansromanregular27 = TextStyle(
-    color: ColorConstant.gray801,
+  static TextStyle textstyleopensansromanregular27 =
+      textstyleopensansregular201.copyWith(
     fontSize: getFontSize(
       27,
     ),
-    fontFamily: 'Open Sans',
-    fontWeight: FontWeight.w400,
   );
 
   static TextStyle textstyleopensansregular13 =
-      textstyleopensansregular132.copyWith(
-    color: ColorConstant.limeA200,
+      textstyleopensansromanregular43.copyWith(
+    fontSize: getFontSize(
+      13,
+    ),
   );
 
   static TextStyle textstyleopensansregular15 =
-      textstyleopensansromanregular43.copyWith(
+      textstyleopensansregular17.copyWith(
     fontSize: getFontSize(
       15,
     ),
@@ -99,8 +94,17 @@ class AppStyle {
   );
 
   static TextStyle textstyleopensansregular11 =
-      textstyleopensansregular117.copyWith(
-    color: ColorConstant.limeA200,
+      textstyleopensansregular01.copyWith(
+    fontSize: getFontSize(
+      11,
+    ),
+  );
+
+  static TextStyle textstyleopensansregular0 =
+      textstyleopensansregular17.copyWith(
+    fontSize: getFontSize(
+      0,
+    ),
   );
 
   static TextStyle textstylearimamadurairegular70 = TextStyle(
@@ -110,11 +114,6 @@ class AppStyle {
     ),
     fontFamily: 'Arima Madurai',
     fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle textstyleopensansregular177 =
-      textstyleopensansregular174.copyWith(
-    color: ColorConstant.limeA200,
   );
 
   static TextStyle textstyleopensansregular176 =
@@ -171,8 +170,15 @@ class AppStyle {
     color: ColorConstant.limeA200,
   );
 
+  static TextStyle textstyleopensansromanregular271 =
+      textstyleopensansromanregular27.copyWith(
+    color: ColorConstant.gray801,
+    fontFamily: 'Open Sans',
+    fontWeight: FontWeight.w400,
+  );
+
   static TextStyle textstyleopensansregular151 =
-      textstyleopensansregular17.copyWith(
+      textstyleopensansromanregular43.copyWith(
     fontSize: getFontSize(
       15,
     ),
@@ -194,7 +200,7 @@ class AppStyle {
   );
 
   static TextStyle textstyleopensansregular132 =
-      textstyleopensansregular153.copyWith(
+      textstyleopensansregular01.copyWith(
     fontSize: getFontSize(
       13,
     ),
@@ -217,21 +223,9 @@ class AppStyle {
   );
 
   static TextStyle textstyleopensansregular117 =
-      textstyleopensansregular153.copyWith(
+      textstyleopensansregular152.copyWith(
     fontSize: getFontSize(
       11,
-    ),
-  );
-
-  static TextStyle textstyleopensansregular153 =
-      textstyleopensansregular152.copyWith(
-    color: ColorConstant.black900,
-  );
-
-  static TextStyle textstyleopensansregular152 =
-      textstyleopensansregular201.copyWith(
-    fontSize: getFontSize(
-      15,
     ),
   );
 
@@ -247,6 +241,15 @@ class AppStyle {
     color: ColorConstant.gray800,
     fontFamily: 'Open Sans',
     fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textstyleopensansregular152 = TextStyle(
+    color: ColorConstant.black900,
+    fontSize: getFontSize(
+      15,
+    ),
+    fontFamily: 'Open Sans',
+    fontWeight: FontWeight.w400,
   );
 
   static TextStyle textstyleactorregular28 = textstyleactorregular32.copyWith(
@@ -319,6 +322,15 @@ class AppStyle {
     ),
     fontFamily: 'Inter',
     fontWeight: FontWeight.w300,
+  );
+
+  static TextStyle textstyleopensansregular01 = TextStyle(
+    color: ColorConstant.limeA200,
+    fontSize: getFontSize(
+      0,
+    ),
+    fontFamily: 'Open Sans',
+    fontWeight: FontWeight.w400,
   );
 
   static TextStyle textstyleactorregular32 = TextStyle(

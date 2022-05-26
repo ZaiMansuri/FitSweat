@@ -116,8 +116,8 @@ class SettingsScreen extends GetWidget<SettingsController> {
                               () => ListView.builder(
                                 physics: BouncingScrollPhysics(),
                                 shrinkWrap: true,
-                                itemCount: controller.settingsModelObj.value
-                                    .settingsItemList.length,
+                                itemCount:
+                                    settingsModelObj.settingsItemList.length,
                                 itemBuilder: (context, index) {
                                   SettingsItemModel model = controller
                                       .settingsModelObj

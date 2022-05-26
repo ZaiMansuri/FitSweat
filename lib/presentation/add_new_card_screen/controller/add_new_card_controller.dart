@@ -3,11 +3,11 @@ import 'package:fitsweat/presentation/add_new_card_screen/models/add_new_card_mo
 import 'package:flutter/material.dart';
 
 class AddNewCardController extends GetxController with StateMixin<dynamic> {
-  TextEditingController cardHolderNamController = TextEditingController();
+  TextEditingController inputController = TextEditingController();
 
-  TextEditingController cardNumberController = TextEditingController();
+  TextEditingController inputController1 = TextEditingController();
 
-  TextEditingController cVCController = TextEditingController();
+  TextEditingController inputController2 = TextEditingController();
 
   Rx<AddNewCardModel> addNewCardModelObj = AddNewCardModel().obs;
 
@@ -19,8 +19,8 @@ class AddNewCardController extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    cardHolderNamController.dispose();
-    cardNumberController.dispose();
-    cVCController.dispose();
+    inputController.dispose();
+    inputController1.dispose();
+    inputController2.dispose();
   }
 }

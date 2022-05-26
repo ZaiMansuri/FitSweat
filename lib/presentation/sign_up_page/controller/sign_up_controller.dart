@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 class SignUpController extends GetxController with StateMixin<dynamic> {
   SignUpController(this.signUpModelObj);
 
-  TextEditingController emailController = TextEditingController();
+  TextEditingController inputController = TextEditingController();
 
-  TextEditingController passwordController = TextEditingController();
+  TextEditingController inputController1 = TextEditingController();
 
-  TextEditingController passwordagainController = TextEditingController();
+  TextEditingController inputController2 = TextEditingController();
 
   Rx<SignUpModel> signUpModelObj;
 
@@ -21,8 +21,8 @@ class SignUpController extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    emailController.dispose();
-    passwordController.dispose();
-    passwordagainController.dispose();
+    inputController.dispose();
+    inputController1.dispose();
+    inputController2.dispose();
   }
 }

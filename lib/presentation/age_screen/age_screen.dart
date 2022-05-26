@@ -69,6 +69,9 @@ class AgeScreen extends GetWidget<AgeController> {
                           alignment: Alignment.centerLeft,
                           child: Padding(
                             padding: EdgeInsets.only(
+                              left: getHorizontalSize(
+                                80.00,
+                              ),
                               top: getVerticalSize(
                                 12.00,
                               ),
@@ -119,7 +122,7 @@ class AgeScreen extends GetWidget<AgeController> {
                             "lbl_33".tr,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.center,
-                            style: AppStyle.textstyleopensansromanregular27
+                            style: AppStyle.textstyleopensansromanregular271
                                 .copyWith(
                               fontSize: getFontSize(
                                 27,
@@ -200,7 +203,7 @@ class AgeScreen extends GetWidget<AgeController> {
                               10.00,
                             ),
                             top: getVerticalSize(
-                              9.80,
+                              9.00,
                             ),
                             right: getHorizontalSize(
                               10.00,
@@ -241,7 +244,7 @@ class AgeScreen extends GetWidget<AgeController> {
                               10.00,
                             ),
                             top: getVerticalSize(
-                              10.80,
+                              10.00,
                             ),
                             right: getHorizontalSize(
                               10.00,
@@ -266,7 +269,7 @@ class AgeScreen extends GetWidget<AgeController> {
                               10.00,
                             ),
                             top: getVerticalSize(
-                              10.80,
+                              10.00,
                             ),
                             right: getHorizontalSize(
                               10.00,
@@ -301,7 +304,7 @@ class AgeScreen extends GetWidget<AgeController> {
                             "lbl_39".tr,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.center,
-                            style: AppStyle.textstyleopensansromanregular27
+                            style: AppStyle.textstyleopensansromanregular271
                                 .copyWith(
                               fontSize: getFontSize(
                                 27,

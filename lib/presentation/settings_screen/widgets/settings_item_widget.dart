@@ -48,7 +48,7 @@ class SettingsItemWidget extends StatelessWidget {
                     "msg_units_of_measur".tr,
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.left,
-                    style: AppStyle.textstyleopensansregular151.copyWith(
+                    style: AppStyle.textstyleopensansregular15.copyWith(
                       fontSize: getFontSize(
                         15,
                       ),

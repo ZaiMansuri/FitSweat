@@ -131,7 +131,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                       ),
                                     ),
                                     child: Image.asset(
-                                      ImageConstant.imgImage4,
+                                      ImageConstant.imgImage2,
                                       height: getVerticalSize(
                                         176.00,
                                       ),
@@ -212,7 +212,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                                         TextOverflow.ellipsis,
                                                     textAlign: TextAlign.left,
                                                     style: AppStyle
-                                                        .textstyleopensansregular15
+                                                        .textstyleopensansregular151
                                                         .copyWith(
                                                       fontSize: getFontSize(
                                                         15,
@@ -315,7 +315,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                       ),
                                       child: TextFormField(
                                         controller:
-                                            controller.meganSusanController,
+                                            controller.group24Controller,
                                         decoration: InputDecoration(
                                           hintText: "lbl_megan_susan2".tr,
                                           hintStyle: AppStyle
@@ -411,7 +411,8 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                         327.00,
                                       ),
                                       child: TextFormField(
-                                        controller: controller.tfController,
+                                        controller:
+                                            controller.languageController,
                                         decoration: InputDecoration(
                                           hintText: "msg_5124_3256".tr,
                                           hintStyle: AppStyle
@@ -523,7 +524,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                                   ),
                                                   child: TextFormField(
                                                     controller: controller
-                                                        .tfController1,
+                                                        .group26Controller,
                                                     decoration: InputDecoration(
                                                       hintText: "lbl_01_23".tr,
                                                       hintStyle: AppStyle
@@ -630,7 +631,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                                   ),
                                                   child: TextFormField(
                                                     controller: controller
-                                                        .tfController2,
+                                                        .group27Controller,
                                                     decoration: InputDecoration(
                                                       hintText: "lbl_696".tr,
                                                       hintStyle: AppStyle
@@ -737,7 +738,7 @@ class EditCardScreen extends GetWidget<EditCardController> {
                                 327.00,
                               ),
                               child: TextFormField(
-                                controller: controller.deleteCardController,
+                                controller: controller.group28Controller,
                                 decoration: InputDecoration(
                                   hintText: "lbl_delete_card".tr,
                                   hintStyle: AppStyle

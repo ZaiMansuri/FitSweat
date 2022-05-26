@@ -104,7 +104,7 @@ class InputsItemWidget extends StatelessWidget {
                         24.00,
                       ),
                       child: SvgPicture.asset(
-                        ImageConstant.imgClosesquare1,
+                        ImageConstant.imgClosesquare,
                         fit: BoxFit.fill,
                       ),
                     ),

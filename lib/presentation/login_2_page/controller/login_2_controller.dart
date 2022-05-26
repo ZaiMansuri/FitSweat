@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 class Login2Controller extends GetxController with StateMixin<dynamic> {
   Login2Controller(this.login2ModelObj);
 
-  TextEditingController sarah145mailcController = TextEditingController();
+  TextEditingController emailController = TextEditingController();
 
-  TextEditingController sW1998Controller = TextEditingController();
+  TextEditingController group100Controller = TextEditingController();
 
   Rx<Login2Model> login2ModelObj;
 
@@ -19,7 +19,7 @@ class Login2Controller extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    sarah145mailcController.dispose();
-    sW1998Controller.dispose();
+    emailController.dispose();
+    group100Controller.dispose();
   }
 }

@@ -120,7 +120,7 @@ class AddNewCardScreen extends GetWidget<AddNewCardController> {
                                 ),
                               ),
                               child: Image.asset(
-                                ImageConstant.imgImage4,
+                                ImageConstant.imgImage2,
                                 height: getVerticalSize(
                                   176.00,
                                 ),
@@ -198,7 +198,7 @@ class AddNewCardScreen extends GetWidget<AddNewCardController> {
                                               overflow: TextOverflow.ellipsis,
                                               textAlign: TextAlign.left,
                                               style: AppStyle
-                                                  .textstyleopensansregular15
+                                                  .textstyleopensansregular151
                                                   .copyWith(
                                                 fontSize: getFontSize(
                                                   15,
@@ -270,7 +270,7 @@ class AddNewCardScreen extends GetWidget<AddNewCardController> {
                               327.00,
                             ),
                             child: TextFormField(
-                              controller: controller.cardHolderNamController,
+                              controller: controller.inputController,
                               decoration: InputDecoration(
                                 hintText: "msg_card_holder_nam".tr,
                                 hintStyle: AppStyle.textstyleopensansregular174
@@ -336,7 +336,7 @@ class AddNewCardScreen extends GetWidget<AddNewCardController> {
                               327.00,
                             ),
                             child: TextFormField(
-                              controller: controller.cardNumberController,
+                              controller: controller.inputController1,
                               decoration: InputDecoration(
                                 hintText: "lbl_card_number".tr,
                                 hintStyle: AppStyle.textstyleopensansregular174
@@ -452,7 +452,7 @@ class AddNewCardScreen extends GetWidget<AddNewCardController> {
                                   153.00,
                                 ),
                                 child: TextFormField(
-                                  controller: controller.cVCController,
+                                  controller: controller.inputController2,
                                   decoration: InputDecoration(
                                     hintText: "lbl_cvc".tr,
                                     hintStyle: AppStyle

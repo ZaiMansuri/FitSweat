@@ -30,7 +30,7 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                 alignment: Alignment.centerLeft,
                 child: Container(
                   height: getVerticalSize(
-                    828.00,
+                    766.00,
                   ),
                   width: size.width,
                   decoration: BoxDecoration(
@@ -74,7 +74,7 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                             ),
                                           ),
                                           child: Image.asset(
-                                            ImageConstant.imgImage6,
+                                            ImageConstant.imgImage4,
                                             height: getVerticalSize(
                                               249.00,
                                             ),
@@ -238,7 +238,7 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                                               ),
                                                               width:
                                                                   getHorizontalSize(
-                                                                130.65,
+                                                                130.00,
                                                               ),
                                                               margin: EdgeInsets
                                                                   .only(
@@ -292,13 +292,13 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                                                             padding:
                                                                                 EdgeInsets.only(
                                                                               left: getHorizontalSize(
-                                                                                6.35,
+                                                                                6.00,
                                                                               ),
                                                                               top: getVerticalSize(
                                                                                 9.00,
                                                                               ),
                                                                               right: getHorizontalSize(
-                                                                                6.65,
+                                                                                6.00,
                                                                               ),
                                                                               bottom: getVerticalSize(
                                                                                 10.00,
@@ -503,7 +503,7 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                                                     TextAlign
                                                                         .right,
                                                                 style: AppStyle
-                                                                    .textstyleopensansregular13
+                                                                    .textstyleopensansregular132
                                                                     .copyWith(
                                                                   fontSize:
                                                                       getFontSize(
@@ -538,11 +538,10 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                                                 Axis.horizontal,
                                                             physics:
                                                                 BouncingScrollPhysics(),
-                                                            itemCount: controller
-                                                                .trainerDetailModelObj
-                                                                .value
-                                                                .trainerDetailItemList
-                                                                .length,
+                                                            itemCount:
+                                                                trainerDetailModelObj
+                                                                    .trainerDetailItemList
+                                                                    .length,
                                                             itemBuilder:
                                                                 (context,
                                                                     index) {
@@ -643,7 +642,7 @@ class TrainerDetailScreen extends GetWidget<TrainerDetailController> {
                                                         TextOverflow.ellipsis,
                                                     textAlign: TextAlign.left,
                                                     style: AppStyle
-                                                        .textstyleopensansregular13
+                                                        .textstyleopensansregular132
                                                         .copyWith(
                                                       fontSize: getFontSize(
                                                         13,

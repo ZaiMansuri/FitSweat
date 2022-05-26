@@ -130,8 +130,7 @@ class SubscriptionScreen extends GetWidget<SubscriptionController> {
                                       "msg_when_you_subscr".tr,
                                       maxLines: null,
                                       textAlign: TextAlign.left,
-                                      style: AppStyle
-                                          .textstyleopensansregular131
+                                      style: AppStyle.textstyleopensansregular13
                                           .copyWith(
                                         fontSize: getFontSize(
                                           13,

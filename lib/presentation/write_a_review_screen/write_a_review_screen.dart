@@ -169,11 +169,11 @@ class WriteAReviewScreen extends GetWidget<WriteAReviewController> {
                                       266.00,
                                     ),
                                     child: TextFormField(
-                                      controller: controller.ratingController,
+                                      controller: controller.group34Controller,
                                       decoration: InputDecoration(
                                         hintText: "lbl_rating".tr,
                                         hintStyle: AppStyle
-                                            .textstyleopensansregular132
+                                            .textstyleopensansregular131
                                             .copyWith(
                                           fontSize: getFontSize(
                                             13.0,

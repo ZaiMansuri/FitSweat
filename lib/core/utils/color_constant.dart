@@ -14,9 +14,9 @@ class ColorConstant {
 
   static Color gray801 = fromHex('#3a3a3c');
 
-  static Color limeA200 = fromHex('#d0fd3e');
-
   static Color bluegray100 = fromHex('#cccccc');
+
+  static Color limeA200 = fromHex('#d0fd3e');
 
   static Color redA40019 = fromHex('#19ff2324');
 

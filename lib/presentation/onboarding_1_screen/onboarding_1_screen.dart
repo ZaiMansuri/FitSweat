@@ -39,7 +39,7 @@ class Onboarding1Screen extends GetWidget<Onboarding1Controller> {
                           child: Image.asset(
                             ImageConstant.imgRectangle63,
                             height: getVerticalSize(
-                              460.00,
+                              280.00,
                             ),
                             width: getHorizontalSize(
                               375.00,
@@ -56,7 +56,7 @@ class Onboarding1Screen extends GetWidget<Onboarding1Controller> {
                               10.00,
                             ),
                             top: getVerticalSize(
-                              62.00,
+                              12.00,
                             ),
                             right: getHorizontalSize(
                               10.00,
@@ -106,13 +106,13 @@ class Onboarding1Screen extends GetWidget<Onboarding1Controller> {
                         10.00,
                       ),
                       top: getVerticalSize(
-                        158.00,
+                        100.00,
                       ),
                       right: getHorizontalSize(
                         10.00,
                       ),
                       bottom: getVerticalSize(
-                        20.00,
+                        10.00,
                       ),
                     ),
                     child: SmoothIndicator(
@@ -124,7 +124,7 @@ class Onboarding1Screen extends GetWidget<Onboarding1Controller> {
                         activeDotColor: ColorConstant.limeA200,
                         dotColor: ColorConstant.gray801,
                         dotHeight: getVerticalSize(
-                          4.00,
+                          5.00,
                         ),
                         dotWidth: getHorizontalSize(
                           16.00,

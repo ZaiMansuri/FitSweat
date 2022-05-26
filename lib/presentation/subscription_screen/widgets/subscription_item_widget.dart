@@ -61,7 +61,7 @@ class SubscriptionItemWidget extends StatelessWidget {
                 24.00,
               ),
               child: SvgPicture.asset(
-                ImageConstant.imgRadio2,
+                ImageConstant.imgRadio,
                 fit: BoxFit.fill,
               ),
             ),
@@ -108,7 +108,7 @@ class SubscriptionItemWidget extends StatelessWidget {
                           "lbl_monthly".tr,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.left,
-                          style: AppStyle.textstyleopensansregular151.copyWith(
+                          style: AppStyle.textstyleopensansregular15.copyWith(
                             fontSize: getFontSize(
                               15,
                             ),
@@ -130,7 +130,7 @@ class SubscriptionItemWidget extends StatelessWidget {
                               ),
                             ),
                             child: Text(
-                              "lbl2".tr,
+                              "lbl".tr,
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.left,
                               style:

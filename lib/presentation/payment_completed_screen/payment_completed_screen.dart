@@ -112,7 +112,7 @@ class PaymentCompletedScreen extends GetWidget<PaymentCompletedController> {
                                 "msg_you_ve_book_a_n".tr,
                                 maxLines: null,
                                 textAlign: TextAlign.left,
-                                style: AppStyle.textstyleopensansregular15
+                                style: AppStyle.textstyleopensansregular151
                                     .copyWith(
                                   fontSize: getFontSize(
                                     15,
@@ -229,7 +229,7 @@ class PaymentCompletedScreen extends GetWidget<PaymentCompletedController> {
                                               ),
                                             ),
                                             child: Image.asset(
-                                              ImageConstant.imgImage3,
+                                              ImageConstant.imgImage1,
                                               height: getSize(
                                                 40.00,
                                               ),
@@ -282,7 +282,7 @@ class PaymentCompletedScreen extends GetWidget<PaymentCompletedController> {
                                                       TextOverflow.ellipsis,
                                                   textAlign: TextAlign.left,
                                                   style: AppStyle
-                                                      .textstyleopensansregular151
+                                                      .textstyleopensansregular15
                                                       .copyWith(
                                                     fontSize: getFontSize(
                                                       15,
@@ -445,7 +445,7 @@ class PaymentCompletedScreen extends GetWidget<PaymentCompletedController> {
                                     "msg_20_october_2021".tr,
                                     overflow: TextOverflow.ellipsis,
                                     textAlign: TextAlign.left,
-                                    style: AppStyle.textstyleopensansregular151
+                                    style: AppStyle.textstyleopensansregular15
                                         .copyWith(
                                       fontSize: getFontSize(
                                         15,
@@ -503,7 +503,7 @@ class PaymentCompletedScreen extends GetWidget<PaymentCompletedController> {
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.right,
                                           style: AppStyle
-                                              .textstyleopensansregular151
+                                              .textstyleopensansregular15
                                               .copyWith(
                                             fontSize: getFontSize(
                                               15,

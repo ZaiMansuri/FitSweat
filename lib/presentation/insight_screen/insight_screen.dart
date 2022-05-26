@@ -1,8 +1,8 @@
-import '../insight_screen/widgets/group259_item_widget.dart';
-import '../insight_screen/widgets/group260_item_widget.dart';
+import '../insight_screen/widgets/group236_item_widget.dart';
+import '../insight_screen/widgets/group237_item_widget.dart';
 import 'controller/insight_controller.dart';
-import 'models/group259_item_model.dart';
-import 'models/group260_item_model.dart';
+import 'models/group236_item_model.dart';
+import 'models/group237_item_model.dart';
 import 'package:fitsweat/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -125,7 +125,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -219,7 +219,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -313,7 +313,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular132
+                                                            .textstyleopensansregular131
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -407,7 +407,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -501,7 +501,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -595,7 +595,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -689,7 +689,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                         textAlign:
                                                             TextAlign.center,
                                                         style: AppStyle
-                                                            .textstyleopensansregular131
+                                                            .textstyleopensansregular13
                                                             .copyWith(
                                                           fontSize: getFontSize(
                                                             13,
@@ -1066,7 +1066,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                                       TextAlign
                                                                           .left,
                                                                   style: AppStyle
-                                                                      .textstyleopensansregular131
+                                                                      .textstyleopensansregular13
                                                                       .copyWith(
                                                                     fontSize:
                                                                         getFontSize(
@@ -1236,7 +1236,7 @@ class InsightScreen extends GetWidget<InsightController> {
                                                                       TextAlign
                                                                           .left,
                                                                   style: AppStyle
-                                                                      .textstyleopensansregular131
+                                                                      .textstyleopensansregular13
                                                                       .copyWith(
                                                                     fontSize:
                                                                         getFontSize(
@@ -1305,17 +1305,17 @@ class InsightScreen extends GetWidget<InsightController> {
                                                   itemCount: controller
                                                       .insightModelObj
                                                       .value
-                                                      .group260ItemList
+                                                      .group237ItemList
                                                       .length,
                                                   itemBuilder:
                                                       (context, index) {
-                                                    Group260ItemModel model =
+                                                    Group237ItemModel model =
                                                         controller
                                                                 .insightModelObj
                                                                 .value
-                                                                .group260ItemList[
+                                                                .group237ItemList[
                                                             index];
-                                                    return Group260ItemWidget(
+                                                    return Group237ItemWidget(
                                                       model,
                                                     );
                                                   },
@@ -1360,13 +1360,13 @@ class InsightScreen extends GetWidget<InsightController> {
                                       physics: BouncingScrollPhysics(),
                                       shrinkWrap: true,
                                       itemCount: controller.insightModelObj
-                                          .value.group259ItemList.length,
+                                          .value.group236ItemList.length,
                                       itemBuilder: (context, index) {
-                                        Group259ItemModel model = controller
+                                        Group236ItemModel model = controller
                                             .insightModelObj
                                             .value
-                                            .group259ItemList[index];
-                                        return Group259ItemWidget(
+                                            .group236ItemList[index];
+                                        return Group236ItemWidget(
                                           model,
                                         );
                                       },

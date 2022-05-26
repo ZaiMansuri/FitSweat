@@ -1,1 +1,0 @@
-class Notifications2Model { }

@@ -50,7 +50,7 @@ class PrivacyPolicyScreen extends GetWidget<PrivacyPolicyController> {
                                     24.00,
                                   ),
                                   right: getHorizontalSize(
-                                    130.00,
+                                    100.00,
                                   ),
                                 ),
                                 child: Row(
@@ -118,7 +118,7 @@ class PrivacyPolicyScreen extends GetWidget<PrivacyPolicyController> {
                                 text: TextSpan(
                                   children: [
                                     TextSpan(
-                                      text: "msg_lorem_ipsum_dol2".tr,
+                                      text: "msg_lorem_ipsum_dol".tr,
                                       style: TextStyle(
                                         color: ColorConstant.whiteA700,
                                         fontSize: getFontSize(
@@ -142,7 +142,7 @@ class PrivacyPolicyScreen extends GetWidget<PrivacyPolicyController> {
                                       ),
                                     ),
                                     TextSpan(
-                                      text: "msg_lorem_ipsum_dol3".tr,
+                                      text: "msg_lorem_ipsum_dol2".tr,
                                       style: TextStyle(
                                         color: ColorConstant.bluegray100,
                                         fontSize: getFontSize(

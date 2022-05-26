@@ -94,8 +94,7 @@ class ReviewsItemWidget extends StatelessWidget {
                             "lbl_sharon_jem".tr,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.left,
-                            style:
-                                AppStyle.textstyleopensansregular151.copyWith(
+                            style: AppStyle.textstyleopensansregular15.copyWith(
                               fontSize: getFontSize(
                                 15,
                               ),
@@ -229,7 +228,7 @@ class ReviewsItemWidget extends StatelessWidget {
                 "msg_had_such_an_ama".tr,
                 maxLines: null,
                 textAlign: TextAlign.left,
-                style: AppStyle.textstyleopensansregular131.copyWith(
+                style: AppStyle.textstyleopensansregular13.copyWith(
                   fontSize: getFontSize(
                     13,
                   ),

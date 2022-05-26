@@ -39,7 +39,7 @@ class Onboarding2Screen extends GetWidget<Onboarding2Controller> {
                           child: Image.asset(
                             ImageConstant.imgRectangle62,
                             height: getVerticalSize(
-                              460.00,
+                              290.00,
                             ),
                             width: getHorizontalSize(
                               375.00,

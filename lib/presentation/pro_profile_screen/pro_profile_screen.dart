@@ -361,7 +361,7 @@ class ProProfileScreen extends GetWidget<ProProfileController> {
                                                       TextOverflow.ellipsis,
                                                   textAlign: TextAlign.left,
                                                   style: AppStyle
-                                                      .textstyleopensansregular151
+                                                      .textstyleopensansregular15
                                                       .copyWith(
                                                     fontSize: getFontSize(
                                                       15,
@@ -409,7 +409,7 @@ class ProProfileScreen extends GetWidget<ProProfileController> {
                                                       TextOverflow.ellipsis,
                                                   textAlign: TextAlign.left,
                                                   style: AppStyle
-                                                      .textstyleopensansregular151
+                                                      .textstyleopensansregular15
                                                       .copyWith(
                                                     fontSize: getFontSize(
                                                       15,
@@ -563,7 +563,7 @@ class ProProfileScreen extends GetWidget<ProProfileController> {
                                 311.00,
                               ),
                               child: TextFormField(
-                                controller: controller.signOutController,
+                                controller: controller.group5Controller,
                                 decoration: InputDecoration(
                                   hintText: "lbl_sign_out".tr,
                                   hintStyle: AppStyle

@@ -32,10 +32,10 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                     child: Padding(
                       padding: EdgeInsets.only(
                         top: getVerticalSize(
-                          56.00,
+                          31.00,
                         ),
                         bottom: getVerticalSize(
-                          20.00,
+                          10.00,
                         ),
                       ),
                       child: Column(
@@ -190,21 +190,21 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                                             child: Padding(
                                               padding: EdgeInsets.only(
                                                 left: getHorizontalSize(
-                                                  11.50,
+                                                  11.00,
                                                 ),
                                                 top: getVerticalSize(
-                                                  12.65,
+                                                  12.00,
                                                 ),
                                                 right: getHorizontalSize(
-                                                  11.50,
+                                                  11.00,
                                                 ),
                                                 bottom: getVerticalSize(
-                                                  12.65,
+                                                  12.00,
                                                 ),
                                               ),
                                               child: Container(
                                                 height: getVerticalSize(
-                                                  20.70,
+                                                  20.00,
                                                 ),
                                                 width: getHorizontalSize(
                                                   23.00,
@@ -294,7 +294,7 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                                 311.00,
                               ),
                               child: TextFormField(
-                                controller: controller.sarahWeganController,
+                                controller: controller.group2Controller,
                                 decoration: InputDecoration(
                                   hintText: "lbl_sarah_wegan".tr,
                                   hintStyle: AppStyle.textstyleopensansregular17
@@ -388,7 +388,7 @@ class EditProfileScreen extends GetWidget<EditProfileController> {
                                 311.00,
                               ),
                               child: TextFormField(
-                                controller: controller.sarah145mailcController,
+                                controller: controller.emailController,
                                 decoration: InputDecoration(
                                   hintText: "msg_sarah145_mail_c".tr,
                                   hintStyle: AppStyle.textstyleopensansregular17

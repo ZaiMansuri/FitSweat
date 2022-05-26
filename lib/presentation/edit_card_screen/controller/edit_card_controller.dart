@@ -3,15 +3,15 @@ import 'package:fitsweat/presentation/edit_card_screen/models/edit_card_model.da
 import 'package:flutter/material.dart';
 
 class EditCardController extends GetxController with StateMixin<dynamic> {
-  TextEditingController meganSusanController = TextEditingController();
+  TextEditingController group24Controller = TextEditingController();
 
-  TextEditingController tfController = TextEditingController();
+  TextEditingController languageController = TextEditingController();
 
-  TextEditingController tfController1 = TextEditingController();
+  TextEditingController group26Controller = TextEditingController();
 
-  TextEditingController tfController2 = TextEditingController();
+  TextEditingController group27Controller = TextEditingController();
 
-  TextEditingController deleteCardController = TextEditingController();
+  TextEditingController group28Controller = TextEditingController();
 
   Rx<EditCardModel> editCardModelObj = EditCardModel().obs;
 
@@ -23,10 +23,10 @@ class EditCardController extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    meganSusanController.dispose();
-    tfController.dispose();
-    tfController1.dispose();
-    tfController2.dispose();
-    deleteCardController.dispose();
+    group24Controller.dispose();
+    languageController.dispose();
+    group26Controller.dispose();
+    group27Controller.dispose();
+    group28Controller.dispose();
   }
 }

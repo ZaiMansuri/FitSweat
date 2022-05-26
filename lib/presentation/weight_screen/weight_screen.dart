@@ -154,7 +154,7 @@ class WeightScreen extends GetWidget<WeightController> {
                               children: [
                                 Container(
                                   height: getVerticalSize(
-                                    28.75,
+                                    28.00,
                                   ),
                                   width: getHorizontalSize(
                                     3.00,
@@ -173,7 +173,7 @@ class WeightScreen extends GetWidget<WeightController> {
                                 ),
                                 Container(
                                   height: getVerticalSize(
-                                    28.75,
+                                    28.00,
                                   ),
                                   width: getHorizontalSize(
                                     3.00,
@@ -192,7 +192,7 @@ class WeightScreen extends GetWidget<WeightController> {
                                 ),
                                 Container(
                                   height: getVerticalSize(
-                                    28.75,
+                                    28.00,
                                   ),
                                   width: getHorizontalSize(
                                     3.00,
@@ -211,7 +211,7 @@ class WeightScreen extends GetWidget<WeightController> {
                                 ),
                                 Container(
                                   height: getVerticalSize(
-                                    28.75,
+                                    28.00,
                                   ),
                                   width: getHorizontalSize(
                                     3.00,
@@ -230,7 +230,7 @@ class WeightScreen extends GetWidget<WeightController> {
                                 ),
                                 Container(
                                   height: getVerticalSize(
-                                    48.88,
+                                    49.00,
                                   ),
                                   width: getHorizontalSize(
                                     3.00,

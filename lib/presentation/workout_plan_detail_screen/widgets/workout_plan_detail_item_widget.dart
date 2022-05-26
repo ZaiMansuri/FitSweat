@@ -42,7 +42,7 @@ class WorkoutPlanDetailItemWidget extends StatelessWidget {
               ),
             ),
             child: Image.asset(
-              ImageConstant.imgImage21,
+              ImageConstant.imgImage19,
               height: getVerticalSize(
                 76.00,
               ),
@@ -94,7 +94,7 @@ class WorkoutPlanDetailItemWidget extends StatelessWidget {
                           "msg_simple_warm_up".tr,
                           maxLines: null,
                           textAlign: TextAlign.left,
-                          style: AppStyle.textstyleopensansregular151.copyWith(
+                          style: AppStyle.textstyleopensansregular15.copyWith(
                             fontSize: getFontSize(
                               15,
                             ),
@@ -134,7 +134,7 @@ class WorkoutPlanDetailItemWidget extends StatelessWidget {
                     "lbl_0_30".tr,
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.left,
-                    style: AppStyle.textstyleopensansregular13.copyWith(
+                    style: AppStyle.textstyleopensansregular132.copyWith(
                       fontSize: getFontSize(
                         13,
                       ),

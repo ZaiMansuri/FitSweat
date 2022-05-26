@@ -1,5 +1,5 @@
-import 'package:get/get.dart';import 'group260_item_model.dart';import 'group259_item_model.dart';class InsightModel {RxList<Group260ItemModel> group260ItemList = RxList.filled(2,Group260ItemModel());
+import 'package:get/get.dart';import 'group237_item_model.dart';import 'group236_item_model.dart';class InsightModel {RxList<Group237ItemModel> group237ItemList = RxList.filled(2,Group237ItemModel());
 
-RxList<Group259ItemModel> group259ItemList = RxList.filled(2,Group259ItemModel());
+RxList<Group236ItemModel> group236ItemList = RxList.filled(2,Group236ItemModel());
 
  }

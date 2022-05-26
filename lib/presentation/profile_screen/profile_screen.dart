@@ -207,7 +207,7 @@ class ProfileScreen extends GetWidget<ProfileController> {
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.left,
                                         style: AppStyle
-                                            .textstyleopensansregular151
+                                            .textstyleopensansregular15
                                             .copyWith(
                                           fontSize: getFontSize(
                                             15,
@@ -362,7 +362,7 @@ class ProfileScreen extends GetWidget<ProfileController> {
                                             overflow: TextOverflow.ellipsis,
                                             textAlign: TextAlign.left,
                                             style: AppStyle
-                                                .textstyleopensansregular131
+                                                .textstyleopensansregular13
                                                 .copyWith(
                                               fontSize: getFontSize(
                                                 13,
@@ -508,7 +508,7 @@ class ProfileScreen extends GetWidget<ProfileController> {
                                       ),
                                       child: TextFormField(
                                         controller:
-                                            controller.signOutController,
+                                            controller.groupSixController,
                                         decoration: InputDecoration(
                                           hintText: "lbl_sign_out".tr,
                                           hintStyle: AppStyle

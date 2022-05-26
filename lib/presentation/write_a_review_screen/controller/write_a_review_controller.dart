@@ -3,7 +3,7 @@ import 'package:fitsweat/presentation/write_a_review_screen/models/write_a_revie
 import 'package:flutter/material.dart';
 
 class WriteAReviewController extends GetxController with StateMixin<dynamic> {
-  TextEditingController ratingController = TextEditingController();
+  TextEditingController group34Controller = TextEditingController();
 
   Rx<WriteAReviewModel> writeAReviewModelObj = WriteAReviewModel().obs;
 
@@ -15,6 +15,6 @@ class WriteAReviewController extends GetxController with StateMixin<dynamic> {
   @override
   void onClose() {
     super.onClose();
-    ratingController.dispose();
+    group34Controller.dispose();
   }
 }

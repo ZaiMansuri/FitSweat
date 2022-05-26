@@ -312,7 +312,7 @@ class PaymentScreen extends GetWidget<PaymentController> {
                                                 ),
                                               ),
                                               child: Image.asset(
-                                                ImageConstant.imgImage3,
+                                                ImageConstant.imgImage1,
                                                 height: getSize(
                                                   40.00,
                                                 ),
@@ -372,7 +372,7 @@ class PaymentScreen extends GetWidget<PaymentController> {
                                                         TextOverflow.ellipsis,
                                                     textAlign: TextAlign.left,
                                                     style: AppStyle
-                                                        .textstyleopensansregular151
+                                                        .textstyleopensansregular15
                                                         .copyWith(
                                                       fontSize: getFontSize(
                                                         15,
@@ -451,7 +451,7 @@ class PaymentScreen extends GetWidget<PaymentController> {
                                                       TextOverflow.ellipsis,
                                                   textAlign: TextAlign.right,
                                                   style: AppStyle
-                                                      .textstyleopensansregular151
+                                                      .textstyleopensansregular15
                                                       .copyWith(
                                                     fontSize: getFontSize(
                                                       15,
@@ -509,7 +509,7 @@ class PaymentScreen extends GetWidget<PaymentController> {
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.left,
                                           style: AppStyle
-                                              .textstyleopensansregular151
+                                              .textstyleopensansregular15
                                               .copyWith(
                                             fontSize: getFontSize(
                                               15,
@@ -641,8 +641,7 @@ class PaymentScreen extends GetWidget<PaymentController> {
                                       "lbl_09_30_am".tr,
                                       overflow: TextOverflow.ellipsis,
                                       textAlign: TextAlign.right,
-                                      style: AppStyle
-                                          .textstyleopensansregular151
+                                      style: AppStyle.textstyleopensansregular15
                                           .copyWith(
                                         fontSize: getFontSize(
                                           15,

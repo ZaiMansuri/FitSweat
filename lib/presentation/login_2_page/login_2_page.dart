@@ -123,7 +123,7 @@ class Login2Page extends StatelessWidget {
                               311.00,
                             ),
                             child: TextFormField(
-                              controller: controller.sarah145mailcController,
+                              controller: controller.emailController,
                               decoration: InputDecoration(
                                 hintText: "msg_sarah145_mail_c".tr,
                                 hintStyle: AppStyle.textstyleopensansregular17
@@ -253,7 +253,7 @@ class Login2Page extends StatelessWidget {
                                 311.00,
                               ),
                               child: TextFormField(
-                                controller: controller.sW1998Controller,
+                                controller: controller.group100Controller,
                                 decoration: InputDecoration(
                                   hintText: "lbl_sw1998".tr,
                                   hintStyle: AppStyle.textstyleopensansregular17

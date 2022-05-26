@@ -62,7 +62,7 @@ class WorkoutPlanDetailScreen extends GetWidget<WorkoutPlanDetailController> {
                                                 ),
                                               ),
                                               child: Image.asset(
-                                                ImageConstant.imgImage20,
+                                                ImageConstant.imgImage17,
                                                 height: getVerticalSize(
                                                   338.00,
                                                 ),
@@ -330,7 +330,7 @@ class WorkoutPlanDetailScreen extends GetWidget<WorkoutPlanDetailController> {
                                                                       TextAlign
                                                                           .left,
                                                                   style: AppStyle
-                                                                      .textstyleopensansregular131
+                                                                      .textstyleopensansregular13
                                                                       .copyWith(
                                                                     fontSize:
                                                                         getFontSize(
@@ -440,7 +440,7 @@ class WorkoutPlanDetailScreen extends GetWidget<WorkoutPlanDetailController> {
                                                                       TextAlign
                                                                           .left,
                                                                   style: AppStyle
-                                                                      .textstyleopensansregular131
+                                                                      .textstyleopensansregular13
                                                                       .copyWith(
                                                                     fontSize:
                                                                         getFontSize(
@@ -515,7 +515,7 @@ class WorkoutPlanDetailScreen extends GetWidget<WorkoutPlanDetailController> {
                                                           textAlign:
                                                               TextAlign.left,
                                                           style: AppStyle
-                                                              .textstyleopensansregular13
+                                                              .textstyleopensansregular132
                                                               .copyWith(
                                                             fontSize:
                                                                 getFontSize(
@@ -542,7 +542,7 @@ class WorkoutPlanDetailScreen extends GetWidget<WorkoutPlanDetailController> {
                                                           textAlign:
                                                               TextAlign.left,
                                                           style: AppStyle
-                                                              .textstyleopensansregular15
+                                                              .textstyleopensansregular151
                                                               .copyWith(
                                                             fontSize:
                                                                 getFontSize(

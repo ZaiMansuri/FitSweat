@@ -46,7 +46,7 @@ class VideoScreen extends GetWidget<VideoController> {
                                   Align(
                                     alignment: Alignment.centerLeft,
                                     child: Image.asset(
-                                      ImageConstant.imgImage2,
+                                      ImageConstant.imgImage,
                                       height: getVerticalSize(
                                         812.00,
                                       ),
@@ -407,7 +407,7 @@ class VideoScreen extends GetWidget<VideoController> {
                                                                   TextAlign
                                                                       .left,
                                                               style: AppStyle
-                                                                  .textstyleopensansregular131
+                                                                  .textstyleopensansregular13
                                                                   .copyWith(
                                                                 fontSize:
                                                                     getFontSize(
@@ -434,7 +434,7 @@ class VideoScreen extends GetWidget<VideoController> {
                                                                   TextAlign
                                                                       .left,
                                                               style: AppStyle
-                                                                  .textstyleopensansregular131
+                                                                  .textstyleopensansregular13
                                                                   .copyWith(
                                                                 fontSize:
                                                                     getFontSize(

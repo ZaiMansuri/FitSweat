@@ -1,5 +1,8 @@
-node_modules
-.history
-variables.env
-.git
-.git.zip
+/.dart_tool/
+/.idea/
+/build/
+/.vscode/
+!/pubspec.lock
+!/.packages
+!/.flutter-plugins-dependencies
+!/.flutter-plugins

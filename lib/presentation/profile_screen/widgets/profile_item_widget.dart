@@ -48,7 +48,7 @@ class ProfileItemWidget extends StatelessWidget {
                     "lbl_edit_profile".tr,
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.left,
-                    style: AppStyle.textstyleopensansregular151.copyWith(
+                    style: AppStyle.textstyleopensansregular15.copyWith(
                       fontSize: getFontSize(
                         15,
                       ),

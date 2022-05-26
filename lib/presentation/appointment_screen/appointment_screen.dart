@@ -138,7 +138,7 @@ class AppointmentScreen extends GetWidget<AppointmentController> {
                               ),
                             ),
                             child: Image.asset(
-                              ImageConstant.imgImage5,
+                              ImageConstant.imgImage3,
                               height: getSize(
                                 64.00,
                               ),

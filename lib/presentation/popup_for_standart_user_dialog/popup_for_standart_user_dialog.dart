@@ -19,6 +19,11 @@ class PopupForStandartUserDialog extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Container(
             width: double.infinity,
+            margin: EdgeInsets.only(
+              top: getVerticalSize(
+                20.00,
+              ),
+            ),
             decoration: BoxDecoration(
               color: ColorConstant.bluegray900,
               borderRadius: BorderRadius.circular(
@@ -68,7 +73,7 @@ class PopupForStandartUserDialog extends StatelessWidget {
                             ),
                           ),
                           child: Image.asset(
-                            ImageConstant.imgImage13,
+                            ImageConstant.imgImage11,
                             height: getVerticalSize(
                               239.00,
                             ),
@@ -168,7 +173,7 @@ class PopupForStandartUserDialog extends StatelessWidget {
                                   "msg_subscribe_to_ta".tr,
                                   overflow: TextOverflow.ellipsis,
                                   textAlign: TextAlign.left,
-                                  style: AppStyle.textstyleopensansregular13
+                                  style: AppStyle.textstyleopensansregular132
                                       .copyWith(
                                     fontSize: getFontSize(
                                       13,
@@ -207,7 +212,7 @@ class PopupForStandartUserDialog extends StatelessWidget {
                   "lbl_cancel".tr,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
-                  style: AppStyle.textstyleopensansregular131.copyWith(
+                  style: AppStyle.textstyleopensansregular13.copyWith(
                     fontSize: getFontSize(
                       13,
                     ),

@@ -10,15 +10,6 @@ class AppDecoration {
           ),
         ),
       );
-  static BoxDecoration get groupstyleblack9007f => BoxDecoration(
-        color: ColorConstant.black9007f,
-        border: Border.all(
-          color: ColorConstant.black900,
-          width: getHorizontalSize(
-            1.00,
-          ),
-        ),
-      );
   static BoxDecoration get groupstylecornerradius => BoxDecoration(
         borderRadius: BorderRadius.circular(
           getHorizontalSize(

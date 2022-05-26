@@ -142,7 +142,7 @@ class PaymentItemWidget extends StatelessWidget {
                                 "lbl_2048".tr,
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.left,
-                                style: AppStyle.textstyleopensansregular151
+                                style: AppStyle.textstyleopensansregular15
                                     .copyWith(
                                   fontSize: getFontSize(
                                     15,

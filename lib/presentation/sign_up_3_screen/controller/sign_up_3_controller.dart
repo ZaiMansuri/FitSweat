@@ -6,7 +6,7 @@ class SignUp3Controller extends GetxController
     with GetSingleTickerProviderStateMixin, StateMixin<dynamic> {
   Rx<SignUp3Model> signUp3ModelObj = SignUp3Model().obs;
 
-  late TabController group93Controller =
+  late TabController group87Controller =
       Get.put(TabController(vsync: this, length: 2));
 
   @override
