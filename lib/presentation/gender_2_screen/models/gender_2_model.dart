@@ -1,0 +1,1 @@
+class Gender2Model { }
